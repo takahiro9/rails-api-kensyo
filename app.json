@@ -34,6 +34,7 @@
   },
   "name": "rails-api-kensyo",
   "scripts": {
+    "postdeploy": "bin/rake db:migrate"
   },
   "stack": "heroku-18"
 }
